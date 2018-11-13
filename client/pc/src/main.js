@@ -5,7 +5,7 @@ import App from './App'
 import router from './router'
 
 import Axios from 'axios'
-Axios.defaults.baseURL= 'http://lulaoshi:81';
+Axios.defaults.baseURL= 'http:/localhost:81';
 
 Vue.prototype.$http = Axios
 
